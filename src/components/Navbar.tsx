@@ -2,7 +2,7 @@
 import CardNav from './UI/CardNav'
 
 
-const Navbar = () => {
+const NavBar = () => {
   const items = [
     {
       label: "Events",
@@ -48,4 +48,4 @@ const Navbar = () => {
 };
 
 
-export default Navbar;
+export default NavBar;

@@ -1,3 +1,5 @@
+// We are using prebuild component from Reactbits: https://reactbits.dev/components/card-nav
+
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 // use your own icon import if react-icons is not available
@@ -245,3 +247,56 @@ const CardNav: React.FC<CardNavProps> = ({
 };
 
 export default CardNav;
+
+
+
+
+// To Use this component, you can import it and use it like this:
+// import CardNav from './CardNav'
+// import logo from './logo.svg';
+
+// const App = () => {
+//   const items = [
+//     {
+//       label: "About",
+//       bgColor: "#0D0716",
+//       textColor: "#fff",
+//       links: [
+//         { label: "Company", ariaLabel: "About Company" },
+//         { label: "Careers", ariaLabel: "About Careers" }
+//       ]
+//     },
+//     {
+//       label: "Projects", 
+//       bgColor: "#170D27",
+//       textColor: "#fff",
+//       links: [
+//         { label: "Featured", ariaLabel: "Featured Projects" },
+//         { label: "Case Studies", ariaLabel: "Project Case Studies" }
+//       ]
+//     },
+//     {
+//       label: "Contact",
+//       bgColor: "#271E37", 
+//       textColor: "#fff",
+//       links: [
+//         { label: "Email", ariaLabel: "Email us" },
+//         { label: "Twitter", ariaLabel: "Twitter" },
+//         { label: "LinkedIn", ariaLabel: "LinkedIn" }
+//       ]
+//     }
+//   ];
+
+//   return (
+//     <CardNav
+//       logo={logo}
+//       logoAlt="Company Logo"
+//       items={items}
+//       baseColor="#fff"
+//       menuColor="#000"
+//       buttonBgColor="#111"
+//       buttonTextColor="#fff"
+//       ease="power3.out"
+//     />
+//   );
+// };

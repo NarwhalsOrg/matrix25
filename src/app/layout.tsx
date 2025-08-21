@@ -4,8 +4,11 @@ import "./globals.css";
 
 
 // Importing components
-import Navbar from "@/components/Navbar";
+
 import FooterBar from "@/components/FooterBar";
+import ScienceBackground from "@/components/ScienceBackground";
+import NavBar from "@/components/NavBar";
+import MatrixBackground from "@/components/MatrixBackground/MatrixBackground";
 
 
 
@@ -22,7 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="App">
-      <Navbar />
+
+        <NavBar />
+        {/* Animated background lives here */}
+        {/* <MatrixBackground /> */}
         {children}
       <FooterBar />
       </body>

@@ -6,7 +6,7 @@ const FooterBar = () => {
           className=''
           style={{marginTop: "auto"}}
       >
-      <h1>Footer Section</h1>
+      <h1 className='text-amber-50'>Footer Section</h1>
     </div>
   )
 }

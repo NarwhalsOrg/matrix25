@@ -7,7 +7,7 @@ import "./globals.css";
 
 import FooterBar from "@/components/FooterBar";
 import ScienceBackground from "@/components/ScienceBackground";
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/Navbar";
 import MatrixBackground from "@/components/MatrixBackground/MatrixBackground";
 
 

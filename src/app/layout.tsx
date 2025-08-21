@@ -28,7 +28,7 @@ export default function RootLayout({
 
         <NavBar />
         {/* Animated background lives here */}
-        {/* <MatrixBackground /> */}
+        <MatrixBackground />
         {children}
       <FooterBar />
       </body>

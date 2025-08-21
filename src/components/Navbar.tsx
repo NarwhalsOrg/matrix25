@@ -35,7 +35,7 @@ const NavBar = () => {
 
   return (
     <CardNav
-      logo="/edit.png"
+      logo="/logo.ico"
       logoAlt="Company Logo"
       items={items}
       baseColor="#5e5e5e"
